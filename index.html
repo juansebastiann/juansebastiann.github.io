@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<body>
+  <section id="home">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky-top" style="background-color: #DFF6FF;">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/library.png" width="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 abc">
+          <li class="nav-item">
+            <a class="nav-link kotak active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link kotak active" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link kotak active" href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</section>
+
+  <div class="intro ">
+    <h1>BEO</h1>
+    <p>"A reader lives a thousand lives before he dies. The man who never reads lives only one."
+      -George R. Rm Martin</p>
+    <p><a href="#menu" class="btn btn-primary btn-lg" role="button">Menu</a></p>
+  </div>
+  
+  <section id="menu">
+  <div class="menu">
+  <h1 class="py-3">MENU</h1>
+  <div class="container-fluid py-3">
+    <div class="row" style="justify-content: center;">
+        <div class="col-sm-3">
+            <div class="thumbnail shadow p-3 mb-5 bg-body rounded">
+                <img src="https://id-test-11.slatic.net/p/f168b817a89254f2bf562d4880705fff.png" width="120%" alt="Cinque Terre"></a>
+                <div class="caption p-1">
+                    <h3>Atomic Habits</h3>
+                    <p><a href="https://www.google.co.id/books/edition/Atomic_Habits_Perubahan_Kecil_yang_membe/1bm0DwAAQBAJ?hl=id&gbpv=1&dq=atomic+habits&printsec=frontcover" class="btn btn-primary btn-block kotak2" role="button">More</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail shadow p-3 mb-5 bg-body rounded">
+                <img src="https://m.media-amazon.com/images/I/61ieoiJnwTL.jpg" width="100%" alt="Cinque Terre"></a>
+                <div class="caption p-1">
+                    <h3>Surrounded by idoits</a></h3>
+                    <p><a href="https://www.google.co.id/books/edition/Surrounded_by_Idiots/mo1xDwAAQBAJ?hl=id&gbpv=1&dq=Surrounded+by+idoits&printsec=frontcover" class="btn btn-primary btn-block kotak2" role="button">More</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-3">
+              <div class="thumbnail shadow p-3 mb-5 bg-body rounded">
+                  <img src="https://0.academia-photos.com/attachment_thumbnails/57255867/mini_magick20180827-13038-10fq0xo.png?1535404897" width="98%" alt="Cinque Terre"></a>
+                  <div class="caption p-1">
+                      <h3>ISHMAEL</h3>
+                      <p><a href="https://www.google.co.id/books/edition/Ishmael/83p-OMrNalYC?hl=id&gbpv=1&dq=ISHMAEL&printsec=frontcover" class="btn btn-primary btn-block kotak2" role="button">More</a></p>
+                  </div>
+              </div>
+          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="contact-us">
+<div class="container-fluid p-5 menu2">
+  <div class="row" style="justify-content: center;">
+    <div class="col-6">
+      <h3 class="kotak3">Contact Us</h3>
+      <form>
+        <div class="form-group">
+          <label for="name">Nama</label>
+          <input type="text" class="form-control" id="name" placeholder="Input your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Input your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary kotak2">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+        <p class="text-muted small mb-4 mb-lg-0">Copyright &copy;2023 LIBRARY</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
